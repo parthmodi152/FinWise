@@ -12,9 +12,9 @@ import SwiftData
 struct FinWiseApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            User.self,
         ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: true)
 
         do {
             return try ModelContainer(for: schema, configurations: [modelConfiguration])
@@ -28,5 +28,6 @@ struct FinWiseApp: App {
             ContentView()
         }
         .modelContainer(sharedModelContainer)
+        .environment(UserHandler(modelContext: sharedModelContainer.mainContext))
     }
 }

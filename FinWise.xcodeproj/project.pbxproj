@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		39826FED2C7FC72F0056F6C7 /* FinWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39826FEC2C7FC72F0056F6C7 /* FinWiseApp.swift */; };
 		39826FEF2C7FC72F0056F6C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39826FEE2C7FC72F0056F6C7 /* ContentView.swift */; };
-		39826FF12C7FC72F0056F6C7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39826FF02C7FC72F0056F6C7 /* Item.swift */; };
+		39826FF12C7FC72F0056F6C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39826FF02C7FC72F0056F6C7 /* User.swift */; };
 		39826FF32C7FC7310056F6C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39826FF22C7FC7310056F6C7 /* Assets.xcassets */; };
 		39826FF62C7FC7310056F6C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39826FF52C7FC7310056F6C7 /* Preview Assets.xcassets */; };
 		398270002C7FC7310056F6C7 /* FinWiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39826FFF2C7FC7310056F6C7 /* FinWiseTests.swift */; };
 		3982700A2C7FC7310056F6C7 /* FinWiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398270092C7FC7310056F6C7 /* FinWiseUITests.swift */; };
 		3982700C2C7FC7310056F6C7 /* FinWiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3982700B2C7FC7310056F6C7 /* FinWiseUITestsLaunchTests.swift */; };
+		399EBF492C7FD6B30091CAB6 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF482C7FD6B30091CAB6 /* AuthView.swift */; };
+		399EBF4B2C7FDA6B0091CAB6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF4A2C7FDA6B0091CAB6 /* MainView.swift */; };
+		399EBF4E2C7FE68A0091CAB6 /* UserHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF4D2C7FE68A0091CAB6 /* UserHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 		39826FE92C7FC72F0056F6C7 /* FinWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39826FEC2C7FC72F0056F6C7 /* FinWiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinWiseApp.swift; sourceTree = "<group>"; };
 		39826FEE2C7FC72F0056F6C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		39826FF02C7FC72F0056F6C7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		39826FF02C7FC72F0056F6C7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		39826FF22C7FC7310056F6C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39826FF52C7FC7310056F6C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		39826FFB2C7FC7310056F6C7 /* FinWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +49,10 @@
 		398270052C7FC7310056F6C7 /* FinWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		398270092C7FC7310056F6C7 /* FinWiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinWiseUITests.swift; sourceTree = "<group>"; };
 		3982700B2C7FC7310056F6C7 /* FinWiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinWiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		399EBF462C7FCBBC0091CAB6 /* FinWise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinWise.entitlements; sourceTree = "<group>"; };
+		399EBF482C7FD6B30091CAB6 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		399EBF4A2C7FDA6B0091CAB6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		399EBF4D2C7FE68A0091CAB6 /* UserHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +103,13 @@
 		39826FEB2C7FC72F0056F6C7 /* FinWise */ = {
 			isa = PBXGroup;
 			children = (
+				399EBF4C2C7FE6760091CAB6 /* Handlers */,
+				399EBF472C7FCF220091CAB6 /* Models */,
+				399EBF462C7FCBBC0091CAB6 /* FinWise.entitlements */,
 				39826FEC2C7FC72F0056F6C7 /* FinWiseApp.swift */,
+				399EBF4A2C7FDA6B0091CAB6 /* MainView.swift */,
 				39826FEE2C7FC72F0056F6C7 /* ContentView.swift */,
-				39826FF02C7FC72F0056F6C7 /* Item.swift */,
+				399EBF482C7FD6B30091CAB6 /* AuthView.swift */,
 				39826FF22C7FC7310056F6C7 /* Assets.xcassets */,
 				39826FF42C7FC7310056F6C7 /* Preview Content */,
 			);
@@ -128,6 +139,22 @@
 				3982700B2C7FC7310056F6C7 /* FinWiseUITestsLaunchTests.swift */,
 			);
 			path = FinWiseUITests;
+			sourceTree = "<group>";
+		};
+		399EBF472C7FCF220091CAB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				39826FF02C7FC72F0056F6C7 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		399EBF4C2C7FE6760091CAB6 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				399EBF4D2C7FE68A0091CAB6 /* UserHandler.swift */,
+			);
+			path = Handlers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				39826FEF2C7FC72F0056F6C7 /* ContentView.swift in Sources */,
-				39826FF12C7FC72F0056F6C7 /* Item.swift in Sources */,
+				399EBF4E2C7FE68A0091CAB6 /* UserHandler.swift in Sources */,
+				39826FF12C7FC72F0056F6C7 /* User.swift in Sources */,
+				399EBF492C7FD6B30091CAB6 /* AuthView.swift in Sources */,
+				399EBF4B2C7FDA6B0091CAB6 /* MainView.swift in Sources */,
 				39826FED2C7FC72F0056F6C7 /* FinWiseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FinWise/FinWise.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FinWise/Preview Content\"";
@@ -452,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FinWise/FinWise.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FinWise/Preview Content\"";
