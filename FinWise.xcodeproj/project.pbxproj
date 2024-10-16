@@ -3,21 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		394ACABB2CA5268700C6B1B8 /* MorphingSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394ACABA2CA5268700C6B1B8 /* MorphingSymbolView.swift */; };
+		395F457F2CA54A4300702C77 /* MainConfiguration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 395F457E2CA54A4300702C77 /* MainConfiguration.storekit */; };
+		39707DA22C81964700E60E13 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 39707DA12C81964700E60E13 /* FirebaseAuth */; };
+		39707DA42C81974F00E60E13 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39707DA32C81974F00E60E13 /* GoogleService-Info.plist */; };
+		39707DA82C819F4100E60E13 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39707DA72C819F4100E60E13 /* AuthenticationViewModel.swift */; };
+		39707DAF2C83CE5700E60E13 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39707DAE2C83CE5700E60E13 /* ProfileView.swift */; };
+		39707DB12C86B11100E60E13 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 39707DB02C86B11100E60E13 /* FirebaseFunctions */; };
+		39707DB42C86B64600E60E13 /* PlaidLinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39707DB32C86B64600E60E13 /* PlaidLinkViewModel.swift */; };
+		39707DB72C86B99400E60E13 /* LinkKit in Frameworks */ = {isa = PBXBuildFile; productRef = 39707DB62C86B99400E60E13 /* LinkKit */; };
+		39707DB92C86BD5200E60E13 /* LinkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39707DB82C86BD5200E60E13 /* LinkController.swift */; };
+		39707DBB2C87A25B00E60E13 /* Plaid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39707DBA2C87A25B00E60E13 /* Plaid.swift */; };
 		39826FED2C7FC72F0056F6C7 /* FinWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39826FEC2C7FC72F0056F6C7 /* FinWiseApp.swift */; };
 		39826FEF2C7FC72F0056F6C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39826FEE2C7FC72F0056F6C7 /* ContentView.swift */; };
-		39826FF12C7FC72F0056F6C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39826FF02C7FC72F0056F6C7 /* User.swift */; };
-		39826FF32C7FC7310056F6C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39826FF22C7FC7310056F6C7 /* Assets.xcassets */; };
 		39826FF62C7FC7310056F6C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39826FF52C7FC7310056F6C7 /* Preview Assets.xcassets */; };
 		398270002C7FC7310056F6C7 /* FinWiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39826FFF2C7FC7310056F6C7 /* FinWiseTests.swift */; };
 		3982700A2C7FC7310056F6C7 /* FinWiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398270092C7FC7310056F6C7 /* FinWiseUITests.swift */; };
 		3982700C2C7FC7310056F6C7 /* FinWiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3982700B2C7FC7310056F6C7 /* FinWiseUITestsLaunchTests.swift */; };
-		399EBF492C7FD6B30091CAB6 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF482C7FD6B30091CAB6 /* AuthView.swift */; };
-		399EBF4B2C7FDA6B0091CAB6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF4A2C7FDA6B0091CAB6 /* MainView.swift */; };
-		399EBF4E2C7FE68A0091CAB6 /* UserHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF4D2C7FE68A0091CAB6 /* UserHandler.swift */; };
+		398B86322CB72D3F00504A6D /* AccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B86312CB72D3F00504A6D /* AccountDetailView.swift */; };
+		398B86342CB72D6000504A6D /* AddBankAccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B86332CB72D6000504A6D /* AddBankAccountDetailView.swift */; };
+		398B86362CB733F200504A6D /* MainTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B86352CB733F200504A6D /* MainTabsView.swift */; };
+		398B863D2CB85A7C00504A6D /* DotLottie in Frameworks */ = {isa = PBXBuildFile; productRef = 398B863C2CB85A7C00504A6D /* DotLottie */; };
+		398B863F2CB8AE0C00504A6D /* piggie_money_animation.lottie in Resources */ = {isa = PBXBuildFile; fileRef = 398B863E2CB8AE0C00504A6D /* piggie_money_animation.lottie */; };
+		398B86482CB8AFF200504A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398B86472CB8AFF200504A6D /* Assets.xcassets */; };
+		398B864A2CB8C59E00504A6D /* AccountBalanceChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B86492CB8C59E00504A6D /* AccountBalanceChartView.swift */; };
+		399EBF502C8042AA0091CAB6 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF4F2C8042A90091CAB6 /* Transaction.swift */; };
+		399EBF522C8042B40091CAB6 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF512C8042B40091CAB6 /* Account.swift */; };
+		399EBF542C804B230091CAB6 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF532C804B230091CAB6 /* Category.swift */; };
+		399EBF592C80582C0091CAB6 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF582C80582C0091CAB6 /* OnboardingPage.swift */; };
+		399EBF5D2C80588A0091CAB6 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF5C2C80588A0091CAB6 /* AuthView.swift */; };
+		399EBF662C805AAC0091CAB6 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF652C805AAC0091CAB6 /* DashboardView.swift */; };
+		399EBF692C805B6D0091CAB6 /* AccountCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF682C805B6D0091CAB6 /* AccountCard.swift */; };
+		399EBF6C2C805BB30091CAB6 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF6B2C805BB30091CAB6 /* ProgressBar.swift */; };
+		399EBF6E2C805BDF0091CAB6 /* DashboardHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF6D2C805BDF0091CAB6 /* DashboardHeader.swift */; };
+		399EBF712C805BFC0091CAB6 /* SpendingChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EBF702C805BFC0091CAB6 /* SpendingChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,28 +61,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		394ACABA2CA5268700C6B1B8 /* MorphingSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingSymbolView.swift; sourceTree = "<group>"; };
+		395F457E2CA54A4300702C77 /* MainConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = MainConfiguration.storekit; sourceTree = "<group>"; };
+		39707DA32C81974F00E60E13 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		39707DA72C819F4100E60E13 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		39707DAE2C83CE5700E60E13 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		39707DB32C86B64600E60E13 /* PlaidLinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidLinkViewModel.swift; sourceTree = "<group>"; };
+		39707DB82C86BD5200E60E13 /* LinkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkController.swift; sourceTree = "<group>"; };
+		39707DBA2C87A25B00E60E13 /* Plaid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plaid.swift; sourceTree = "<group>"; };
 		39826FE92C7FC72F0056F6C7 /* FinWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39826FEC2C7FC72F0056F6C7 /* FinWiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinWiseApp.swift; sourceTree = "<group>"; };
 		39826FEE2C7FC72F0056F6C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		39826FF02C7FC72F0056F6C7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		39826FF22C7FC7310056F6C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39826FF52C7FC7310056F6C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		39826FFB2C7FC7310056F6C7 /* FinWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39826FFF2C7FC7310056F6C7 /* FinWiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinWiseTests.swift; sourceTree = "<group>"; };
 		398270052C7FC7310056F6C7 /* FinWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		398270092C7FC7310056F6C7 /* FinWiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinWiseUITests.swift; sourceTree = "<group>"; };
 		3982700B2C7FC7310056F6C7 /* FinWiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinWiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		398B86312CB72D3F00504A6D /* AccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailView.swift; sourceTree = "<group>"; };
+		398B86332CB72D6000504A6D /* AddBankAccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBankAccountDetailView.swift; sourceTree = "<group>"; };
+		398B86352CB733F200504A6D /* MainTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabsView.swift; sourceTree = "<group>"; };
+		398B863E2CB8AE0C00504A6D /* piggie_money_animation.lottie */ = {isa = PBXFileReference; lastKnownFileType = file; path = piggie_money_animation.lottie; sourceTree = "<group>"; };
+		398B86472CB8AFF200504A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		398B86492CB8C59E00504A6D /* AccountBalanceChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceChartView.swift; sourceTree = "<group>"; };
 		399EBF462C7FCBBC0091CAB6 /* FinWise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinWise.entitlements; sourceTree = "<group>"; };
-		399EBF482C7FD6B30091CAB6 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
-		399EBF4A2C7FDA6B0091CAB6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		399EBF4D2C7FE68A0091CAB6 /* UserHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHandler.swift; sourceTree = "<group>"; };
+		399EBF4F2C8042A90091CAB6 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		399EBF512C8042B40091CAB6 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		399EBF532C804B230091CAB6 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		399EBF582C80582C0091CAB6 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		399EBF5C2C80588A0091CAB6 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		399EBF652C805AAC0091CAB6 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		399EBF682C805B6D0091CAB6 /* AccountCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCard.swift; sourceTree = "<group>"; };
+		399EBF6B2C805BB30091CAB6 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		399EBF6D2C805BDF0091CAB6 /* DashboardHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardHeader.swift; sourceTree = "<group>"; };
+		399EBF702C805BFC0091CAB6 /* SpendingChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingChart.swift; sourceTree = "<group>"; };
+		399EBF742C81039B0091CAB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		395F45802CA54C7700702C77 /* Subscription */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Subscription; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		39826FE62C7FC72F0056F6C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39707DB72C86B99400E60E13 /* LinkKit in Frameworks */,
+				398B863D2CB85A7C00504A6D /* DotLottie in Frameworks */,
+				39707DA22C81964700E60E13 /* FirebaseAuth in Frameworks */,
+				39707DB12C86B11100E60E13 /* FirebaseFunctions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +131,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39707DAD2C83CE4500E60E13 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				39707DAE2C83CE5700E60E13 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		39707DB22C86B5BB00E60E13 /* PlaidLink */ = {
+			isa = PBXGroup;
+			children = (
+				39707DB32C86B64600E60E13 /* PlaidLinkViewModel.swift */,
+				39707DB82C86BD5200E60E13 /* LinkController.swift */,
+			);
+			path = PlaidLink;
+			sourceTree = "<group>";
+		};
 		39826FE02C7FC72F0056F6C7 = {
 			isa = PBXGroup;
 			children = (
+				398B86472CB8AFF200504A6D /* Assets.xcassets */,
+				395F457E2CA54A4300702C77 /* MainConfiguration.storekit */,
+				39707DA32C81974F00E60E13 /* GoogleService-Info.plist */,
 				39826FEB2C7FC72F0056F6C7 /* FinWise */,
 				39826FFE2C7FC7310056F6C7 /* FinWiseTests */,
 				398270082C7FC7310056F6C7 /* FinWiseUITests */,
@@ -103,14 +174,13 @@
 		39826FEB2C7FC72F0056F6C7 /* FinWise */ = {
 			isa = PBXGroup;
 			children = (
-				399EBF4C2C7FE6760091CAB6 /* Handlers */,
+				399EBF742C81039B0091CAB6 /* Info.plist */,
+				399EBF5A2C80586D0091CAB6 /* Views */,
 				399EBF472C7FCF220091CAB6 /* Models */,
 				399EBF462C7FCBBC0091CAB6 /* FinWise.entitlements */,
 				39826FEC2C7FC72F0056F6C7 /* FinWiseApp.swift */,
-				399EBF4A2C7FDA6B0091CAB6 /* MainView.swift */,
 				39826FEE2C7FC72F0056F6C7 /* ContentView.swift */,
-				399EBF482C7FD6B30091CAB6 /* AuthView.swift */,
-				39826FF22C7FC7310056F6C7 /* Assets.xcassets */,
+				398B86402CB8AEA200504A6D /* LottieAnimations */,
 				39826FF42C7FC7310056F6C7 /* Preview Content */,
 			);
 			path = FinWise;
@@ -141,20 +211,78 @@
 			path = FinWiseUITests;
 			sourceTree = "<group>";
 		};
+		398B86402CB8AEA200504A6D /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				398B863E2CB8AE0C00504A6D /* piggie_money_animation.lottie */,
+			);
+			path = LottieAnimations;
+			sourceTree = "<group>";
+		};
 		399EBF472C7FCF220091CAB6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				39826FF02C7FC72F0056F6C7 /* User.swift */,
+				399EBF4F2C8042A90091CAB6 /* Transaction.swift */,
+				399EBF512C8042B40091CAB6 /* Account.swift */,
+				399EBF532C804B230091CAB6 /* Category.swift */,
+				399EBF582C80582C0091CAB6 /* OnboardingPage.swift */,
+				39707DBA2C87A25B00E60E13 /* Plaid.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		399EBF4C2C7FE6760091CAB6 /* Handlers */ = {
+		399EBF5A2C80586D0091CAB6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				399EBF4D2C7FE68A0091CAB6 /* UserHandler.swift */,
+				39707DB22C86B5BB00E60E13 /* PlaidLink */,
+				395F45802CA54C7700702C77 /* Subscription */,
+				399EBF5E2C8058E40091CAB6 /* Tabs */,
+				399EBF5B2C8058770091CAB6 /* Auth */,
 			);
-			path = Handlers;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		399EBF5B2C8058770091CAB6 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				39707DA72C819F4100E60E13 /* AuthenticationViewModel.swift */,
+				399EBF5C2C80588A0091CAB6 /* AuthView.swift */,
+				394ACABA2CA5268700C6B1B8 /* MorphingSymbolView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		399EBF5E2C8058E40091CAB6 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				39707DAD2C83CE4500E60E13 /* Profile */,
+				399EBF642C805A9D0091CAB6 /* Dashboard */,
+				398B86352CB733F200504A6D /* MainTabsView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		399EBF642C805A9D0091CAB6 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				399EBF672C805B5B0091CAB6 /* Components */,
+				399EBF652C805AAC0091CAB6 /* DashboardView.swift */,
+				398B86312CB72D3F00504A6D /* AccountDetailView.swift */,
+				398B86332CB72D6000504A6D /* AddBankAccountDetailView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		399EBF672C805B5B0091CAB6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				399EBF682C805B6D0091CAB6 /* AccountCard.swift */,
+				399EBF6B2C805BB30091CAB6 /* ProgressBar.swift */,
+				399EBF6D2C805BDF0091CAB6 /* DashboardHeader.swift */,
+				399EBF702C805BFC0091CAB6 /* SpendingChart.swift */,
+				398B86492CB8C59E00504A6D /* AccountBalanceChartView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,7 +300,16 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				395F45802CA54C7700702C77 /* Subscription */,
+			);
 			name = FinWise;
+			packageProductDependencies = (
+				39707DA12C81964700E60E13 /* FirebaseAuth */,
+				39707DB02C86B11100E60E13 /* FirebaseFunctions */,
+				39707DB62C86B99400E60E13 /* LinkKit */,
+				398B863C2CB85A7C00504A6D /* DotLottie */,
+			);
 			productName = FinWise;
 			productReference = 39826FE92C7FC72F0056F6C7 /* FinWise.app */;
 			productType = "com.apple.product-type.application";
@@ -221,7 +358,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					39826FE82C7FC72F0056F6C7 = {
 						CreatedOnToolsVersion = 15.4;
@@ -245,6 +382,11 @@
 				Base,
 			);
 			mainGroup = 39826FE02C7FC72F0056F6C7;
+			packageReferences = (
+				39707DA02C81964700E60E13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				39707DB52C86B99400E60E13 /* XCRemoteSwiftPackageReference "plaid-link-ios-spm" */,
+				398B863B2CB85A7C00504A6D /* XCRemoteSwiftPackageReference "dotlottie-ios" */,
+			);
 			productRefGroup = 39826FEA2C7FC72F0056F6C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,7 +404,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				39826FF62C7FC7310056F6C7 /* Preview Assets.xcassets in Resources */,
-				39826FF32C7FC7310056F6C7 /* Assets.xcassets in Resources */,
+				398B863F2CB8AE0C00504A6D /* piggie_money_animation.lottie in Resources */,
+				395F457F2CA54A4300702C77 /* MainConfiguration.storekit in Resources */,
+				39707DA42C81974F00E60E13 /* GoogleService-Info.plist in Resources */,
+				398B86482CB8AFF200504A6D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +432,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399EBF502C8042AA0091CAB6 /* Transaction.swift in Sources */,
 				39826FEF2C7FC72F0056F6C7 /* ContentView.swift in Sources */,
-				399EBF4E2C7FE68A0091CAB6 /* UserHandler.swift in Sources */,
-				39826FF12C7FC72F0056F6C7 /* User.swift in Sources */,
-				399EBF492C7FD6B30091CAB6 /* AuthView.swift in Sources */,
-				399EBF4B2C7FDA6B0091CAB6 /* MainView.swift in Sources */,
+				399EBF5D2C80588A0091CAB6 /* AuthView.swift in Sources */,
+				39707DB92C86BD5200E60E13 /* LinkController.swift in Sources */,
+				399EBF662C805AAC0091CAB6 /* DashboardView.swift in Sources */,
+				39707DA82C819F4100E60E13 /* AuthenticationViewModel.swift in Sources */,
+				399EBF6C2C805BB30091CAB6 /* ProgressBar.swift in Sources */,
+				399EBF592C80582C0091CAB6 /* OnboardingPage.swift in Sources */,
+				398B86342CB72D6000504A6D /* AddBankAccountDetailView.swift in Sources */,
+				399EBF692C805B6D0091CAB6 /* AccountCard.swift in Sources */,
+				39707DAF2C83CE5700E60E13 /* ProfileView.swift in Sources */,
+				399EBF712C805BFC0091CAB6 /* SpendingChart.swift in Sources */,
+				398B864A2CB8C59E00504A6D /* AccountBalanceChartView.swift in Sources */,
+				399EBF542C804B230091CAB6 /* Category.swift in Sources */,
+				399EBF6E2C805BDF0091CAB6 /* DashboardHeader.swift in Sources */,
+				398B86362CB733F200504A6D /* MainTabsView.swift in Sources */,
+				399EBF522C8042B40091CAB6 /* Account.swift in Sources */,
+				394ACABB2CA5268700C6B1B8 /* MorphingSymbolView.swift in Sources */,
+				39707DB42C86B64600E60E13 /* PlaidLinkViewModel.swift in Sources */,
+				39707DBB2C87A25B00E60E13 /* Plaid.swift in Sources */,
+				398B86322CB72D3F00504A6D /* AccountDetailView.swift in Sources */,
 				39826FED2C7FC72F0056F6C7 /* FinWiseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,11 +621,13 @@
 				DEVELOPMENT_TEAM = ZX45R8X47A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinWise/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,11 +653,13 @@
 				DEVELOPMENT_TEAM = ZX45R8X47A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinWise/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -511,7 +676,6 @@
 		398270132C7FC7310056F6C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -531,7 +695,6 @@
 		398270142C7FC7310056F6C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -551,7 +714,6 @@
 		398270162C7FC7310056F6C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZX45R8X47A;
@@ -569,7 +731,6 @@
 		398270172C7FC7310056F6C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZX45R8X47A;
@@ -624,6 +785,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		39707DA02C81964700E60E13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.1.0;
+			};
+		};
+		39707DB52C86B99400E60E13 /* XCRemoteSwiftPackageReference "plaid-link-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/plaid/plaid-link-ios-spm";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		398B863B2CB85A7C00504A6D /* XCRemoteSwiftPackageReference "dotlottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LottieFiles/dotlottie-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		39707DA12C81964700E60E13 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39707DA02C81964700E60E13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		39707DB02C86B11100E60E13 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39707DA02C81964700E60E13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		39707DB62C86B99400E60E13 /* LinkKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39707DB52C86B99400E60E13 /* XCRemoteSwiftPackageReference "plaid-link-ios-spm" */;
+			productName = LinkKit;
+		};
+		398B863C2CB85A7C00504A6D /* DotLottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 398B863B2CB85A7C00504A6D /* XCRemoteSwiftPackageReference "dotlottie-ios" */;
+			productName = DotLottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 39826FE12C7FC72F0056F6C7 /* Project object */;
 }

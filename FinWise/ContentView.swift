@@ -7,36 +7,35 @@
 
 import SwiftUI
 import SwiftData
-import AuthenticationServices
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Environment(UserHandler.self) private var userHandler
+    @Environment(AuthenticationViewModel.self) private var authViewModel
     
-    @AppStorage("userID")
-    private var userID : String = ""
-    
-    @State
-    private var isAuthenticated: Bool = false
-
     var body: some View {
-        if userHandler.isUserSignedIn() {
-            // Show the main content of your app if the user is authenticated
-            MainView()
+        if authViewModel.authenticationState != .unauthenticated {
+            // Show the main content of the app if the user is authenticated
+            MainTabsView()
         } else {
             // Show the AuthView if the user is not authenticated
-            AuthView { userCredential in
-                userHandler.signInUser(userCredential)
-            }
+            AuthView()
         }
     }
 }
 
 #Preview {
-    let config = ModelConfiguration(isStoredInMemoryOnly: true)
-    let container = try! ModelContainer(for: User.self, configurations: config)
+    let schema = Schema([
+        Transaction.self,
+        Account.self,
+        Category.self
+    ])
+    let config = ModelConfiguration(schema: schema, isStoredInMemoryOnly: true)
+    let container = try! ModelContainer(for: schema, configurations: config)
+    let entitlementManager = EntitlementManager()
+    
     
     return ContentView()
-        .modelContainer(container)
-        .environment(UserHandler(modelContext: container.mainContext))
+        .environment(AuthenticationViewModel())
+        .environment(PlaidLinkViewModel(modelContext: container.mainContext))
+        .environment(entitlementManager)
+        .environment(SubscriptionsManager(entitlementManager: entitlementManager))
 }
